@@ -1,7 +1,7 @@
 import './Product.css'
 
 export default function Product({ title = "title", price = "price", features = [] }) {
-    let styles={backgroundColor:price>30000?"orange":""};
+    let styles={backgroundColor:price>30000?"pink":""};
     // let isDiscount=price > 30000 ? "Discount of 5%" : "";
     // let isDiscount=price > 30000 && "Discount of 5%";
     let f = features.map((feature, index) => <li key={index}>{feature}</li>);
