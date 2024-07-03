@@ -1,10 +1,10 @@
 import './Product.css'
 
-export default function Product() {
+export default function Product({title="title",price="price"}) {
     return (
         <div className="Product">
-            <h1>Product title</h1>
-            <h3>product description</h3>
+            <h4>Product title : {title}</h4>
+            <p>product description : {price}</p>
         </div>
     );
 }
