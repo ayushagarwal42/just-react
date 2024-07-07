@@ -1,8 +1,32 @@
-.Card{
-    border:2px solid black;
-    border-radius:15px;
+.Card {
+    border: 2px solid black;
+    border-radius: 15px;
     margin-bottom: 15px;
-    background-color:rgb(236, 196, 145);
-    color:rgb(38, 105, 38);
-    padding:0 10px;
+    margin: 15px;
+    background-color: lightgray;
+    color: black;
+    /* padding: 0 10px; */
+    width: 200px;
+}
+
+.Card>h4{
+    padding: 0 5px;
+}
+
+.Card>p {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5px;
+}
+
+.cardtab {
+    display: flex;
+    /* justify-content:space-evenly; */
+}
+.Price{
+    background-color: coral;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    padding:2px 5px;
+    width:auto
 }
